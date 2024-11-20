@@ -1,8 +1,22 @@
-.fondo{
-    background-image: url(/Imagenes/fondo-Git.jpg);
-    text-align: center;
-    justify-content: center;
+body{
+    background-image: url(/Imagenes/apoya2_19052022.jpg);
+    backdrop-filter: blur(10px);
+}
 
+.fondo{
+    text-align: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.todotarjeta{
+    display: flex;
+}
+
+.todotarjeta2{
+    display: flex;
 }
 
 h1{
