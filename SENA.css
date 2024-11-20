@@ -1,6 +1,9 @@
 body{
     background-image: url(/Imagenes/apoya2_19052022.jpg);
     backdrop-filter: blur(10px);
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 .fondo{
@@ -34,4 +37,16 @@ h2{
 
 img {
     filter: blur (10px);
+}
+.pie{
+    background-color: green;
+
+}
+img{
+    width:30px ;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
